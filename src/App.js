@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
-import Todos from './components/Todos'
+import { Button } from 'antd';
+
+
 
 function App() {
-
   
   return (
-    console.log(this.state.todos),
     <div className="App">
-      <Todos/>
+      <Button type="primary">Tests Button</Button>
     </div>
+
+    
   );
 }
 
